@@ -1,0 +1,48 @@
+conda create --name venv_ben python==3.9
+conda activate venv_ben
+
+Install the latest version of pytorch (CUDA 11.6)
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+
+requirements.txt
+ctransformers==0.2.5
+faiss-cpu==1.7.4
+langchain==0.0.225
+tiktoken==0.5.1
+pypdf==3.8.1
+python-box==7.0.1
+sentence-transformers==2.2.2
+flask==3.0.0
+
+Query: How does reward modeling works in Llama2-chat?
+{
+    "infer_time": 23.104567527770996,
+    "result": "Reward modeling in Llama2-Chat involves using a reward function to score model responses based on their quality (e.g., helpfulness and safety). The scores are then used to optimize Llama 2-Chat during reinforcement learning with human feedback for better human preference alignment and improved helpfulness and safety."
+}
+
+
+Query: What are the main insights of the paper?
+{
+    "infer_time": 29.197023630142212,
+    "result": "The main insights of the paper are:\n1. The use of red teaming as a tool for identifying and addressing potential security risks in AI systems.\n2. The importance of involving diverse groups of people in red teaming exercises to gain a more comprehensive understanding of potential security risks.\n3. The value of qualitative insights in identifying specific patterns and vulnerabilities in AI systems that may not be immediately apparent through quantitative analysis alone."
+}
+
+
+
+Query: Can we utilize Llama model for commercial use?
+{
+    "infer_time": 16.817442417144775,
+    "result": "Llama 2 is a new technology that carries risks with its use, and testing conducted to date has been limited to English. Therefore, it is not recommended to use Llama 2 for commercial purposes without proper safety testing and tuning tailored to your specific use case. Additionally, you must comply with the terms of the provided license and our Acceptable Use Policy, which prohibit any uses that would violate applicable policies, laws, rules, and regulations."
+}
+
+{
+    "infer_time": 22.208975791931152,
+    "result": "The training process of Llama 2-Chat involves pretraining on publicly available online sources, followed by supervised fine-tuning through reinforcement learning with human feedback (RLHF) methodologies, specifically rejection sampling and proximal policy optimization (PPO)."
+}
+
+
+Query: How the performance of Llama model is better than other models on different benchmarks?
+{
+    "infer_time": 26.12567710876465,
+    "result": "Llama 2 models outperform other models on various benchmarks due to their larger size, improved optimization, and better architectural design. Specifically, Llama 2 70B model has a larger size than other models, which allows it to capture more context and"
+}

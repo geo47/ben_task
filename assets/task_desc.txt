@@ -1,0 +1,28 @@
+Task: Retrieval Augmented Generation
+
+Given a paper with information that has never been seen by a large language model (LLM), we aim to incorporate this new information into the LLM. One method to achieve this is through retrieval augmented generation. In this approach, crucial data from the paper is provided to the LLM, enabling it to reason and respond based on that information. Typically, the paper and the user's query are encoded into vector embeddings.
+
+
+Tasks to Complete:
+1. Using the REST protocol, develop a chatbot that can accurately and truthfully answer queries related to the paper titled "Llama 2: Open Foundation and Fine-Tuned Chat Models" by MetaAI.
+
+2. Monitor and measure the latency of the chatbot's responses. We suggest using a language model running on CPU (libraries such as llama.cpp or ctranslate2 are of great help)
+
+3. Store the chatbot's responses in a database. This will allow for the retrieval of previous responses, eliminating the need to use global variables for this purpose.
+
+4. Experiment with various strategies for segmenting the paper into text chunks.
+
+Submission:
+When submitting your project, ensure you adhere to the following:
+
+Folder Structure: Submit a folder containing all necessary files for the project.
+File Inclusions:
+Include a requirements.txt file.
+Ensure any additional files, such as JSON or PDF files, are also included.
+Model Weights:
+If the model hasn't been fine-tuned, refrain from sending the model weights directly.
+Instead, provide a method or link allowing us to download the weights before running the program.
+Documentation: Create a text file documenting:
+Questions asked to the chatbot.
+Responses received.
+Latency measured in seconds.
