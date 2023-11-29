@@ -1,6 +1,6 @@
 # BEN_Task Submission: Retrieval Augmented Generation
 
-This project contains all the code and files for the [task]().
+This project contains all the code and files for the [task](https://github.com/geo47/ben_task/tree/master/assets).
 
 The project is based on _Retrieval Augmented Generation (RAG)_ using _Llama-2_ model for incorporating information given in document(s) (_pdf docs_).
 
