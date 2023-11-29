@@ -1,6 +1,6 @@
 # BEN_Task Submission: Retrieval Augmented Generation
 
-This project contains all the code and files for the [task](https://github.com/geo47/ben_task/tree/master/assets).
+This project contains all the code and files for the [task](https://github.com/geo47/ben_task/tree/master/assets/task_desc.txt).
 
 The project is based on _Retrieval Augmented Generation (RAG)_ using _Llama-2_ model for incorporating information given in document(s) (_pdf docs_).
 
@@ -60,9 +60,14 @@ python api_main.py
 
 ** Use the Rest API: `https:localhost:5000/get?query=Please define the training process of the Llama model.`
 
-Results screenshot and text files are stored in [assets]() folder.
+Results screenshot and text files are stored in [assets](https://github.com/geo47/ben_task/tree/master/assets/) folder.
 
-For storing chatbot responses, I used simple file storage. It could be used with other database sources. ([link]())
+![alt text](https://github.com/geo47/ben_task/blob/master/assets/bot_response.PNG?raw=true)
+
+
+![alt text](https://github.com/geo47/ben_task/blob/master/assets/bot_response_2.PNG?raw=true)
+
+For storing chatbot responses, I used simple file storage. It could be used with other database sources. ([link](https://github.com/geo47/ben_task/blob/33298a1d58ae3451238a143f47e06a695c987ba0/src/chain_pipeline.py#L33))
 
 4. Experiment with different chunking segmentation strategies.
 
